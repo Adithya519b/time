@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #000;
+    color: white;
+}
+.container{
+    margin: auto;
+    width: 90%;
+    padding: 3%;
+    height:80%;
+    overflow:hidden;
+   
+}
+@keyframes roll{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.animation{
+    
+    flex-wrap: nowrap;
+    border:2px solid white;
+    border-radius:15px;
+    width: 90%;
+
+    height:30vh;
+    overflow:hidden;
+
+
+    
+}
+.animatein{
+    display: flex;
+    width: 98%;
+    flex-wrap: nowrap;
+    height: 95%;
+    background-color:black;
+    margin:1%;
+    margin-right: 1%;
+    border-radius: 10px;
+    
+}
+.time{
+    flex-grow: 1;
+    margin: 1%;
+    width: 32%;
+    height: 90%;
+    background-color: black;
+    border-radius: 10px;
+    position: relative;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgb(85, 77, 77);
+}
+/*.roll{
+    height: 800px;
+    width: 80px;
+    position: absolute;
+    background: linear-gradient(145deg, aqua,orange, rgb(180, 23, 75));
+    margin-left: 20%;
+    animation: roll;
+    animation-timing-function:linear;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    z-index: -1;
+    
+}*/
+.text{
+    margin: 7%;
+}
+#year{
+    text-align: center;
+    color: orange;
+}
